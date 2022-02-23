@@ -1,0 +1,193 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, white, grey);
+    padding: 0 !important;
+}
+.navbar-brand {
+    color: black !important;
+    font-weight: 600;
+}
+.navbar-brand img {
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: black !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*------------BANNER SECTION-----------*/
+
+#banner {
+    background-image: linear-gradient(to right, white, grey);
+    color: black;
+    padding-top: 5%;
+}
+.promo-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+#banner a {
+    color: black;
+    text-decoration: none;
+}
+.img-banner {
+   width: 450px;
+}
+
+/*----------BIO SECTION-------------*/
+#Bio {
+    background: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.bio-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+.img-fluid {
+    height: 120px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+#Bio ul li {
+    margin: 10px 0px;
+    text-align: justify;
+}
+#Bio ul {
+    margin-left: 10px;
+    text-align: justify;
+}
+
+/*----------PROJECTS SECTION-------------*/
+
+#Project {
+    padding: 80px 0;
+    background: grey;
+}
+.pacman-img {
+    width: 100px;
+    margin-top: 20px;
+}
+.eye-img {
+    width: 100px;
+    margin-top: 20px;
+}
+.tracker-img {
+    width: 100px;
+    margin-top: 20px;
+}
+.projects {
+    padding: 20px;
+} 
+.projects h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before {
+    content: '';
+    background: grey;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after {
+    content: '';
+    background: grey;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+#Project .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, grey, black);
+}
+
+/*-----------SOCIAL MEDIA SECTION------------------*/
+
+#social-media {
+    background-color: white;
+    padding: 100px 0;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*-------------FOOTER SECTION----------------------*/
+
+#footer {
+    padding: 20px;
+    width: 100%;
+}
+.footer-box {
+    padding: 20px;
+    background-color: white;
+}
+.footer-box img {
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+hr {
+    background-color: white;    
+}
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}

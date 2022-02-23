@@ -1,0 +1,150 @@
+<html>
+
+<head>
+
+<title>Jessica's Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+<body>
+
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png">Jessica's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#Bio">BIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Project">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#social-media">CONTACT</a>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<!------------BANNER SECTION---------------------->
+
+<section id="banner">
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<p class="promo-title">JESSICA KISNER</p>
+<p>Here you can learn more about my work as a Web Development Student so far!</p>
+<a href='https://github.com/jssicakisner'><img src="github.png" class="play-btn">My GitHub</a>
+</div>
+<div class="col-md-6 text center">
+<img src="woman.png" class="img-banner">
+</div>
+</div>
+</div>
+</section>
+
+<!-------------------BIO---------------------------->
+
+<section id="Bio">
+<div class="container">
+<h1 class="title text-center">ABOUT ME</h1>
+<div class="row text-center">
+<div class="col col-md-6 bio">
+<p class="bio-title"></p>
+    <ul>
+    Proficient Environmental Engineer, specialised in Water Resources and seeking a career change to a position involving Software Development. Contributed to a department of sustainable energy with strong interpersonal skills and as a creative problem solver.</li>
+    To see more details, please go to my LinkedIn profile!
+    </ul>
+</div>
+<div class="col-md-6">
+<img src="Jessica.png" class="img-fluid">
+</div>
+</div>
+</div>
+
+</section>
+
+<!------------PROJECTS SECTION---------------------->
+
+<section id="Project">
+<div class="container text-center">
+<h1 class="title">PROJECTS</h1>
+<div class="row text-center">
+<div class="col-md-4" projects>
+  <img src="pacman.png" class="pacman-img">
+  <h4>PACMAN PROJECT</h4>
+  <p>The code positions a new pacman image that moves around and bounces off any walls it hits.</p>
+  <a target="_blank" href="https://github.com/jssicakisner/PacMen-Exercise">
+  <button type="button" class="btn btn-primary">SEE MORE</button>
+  </a>
+</div>
+<div class="col-md-4" projects>
+  <img src="black eye icon.png" class="eye-img">
+  <h4>EYE PROJECT</h4>
+  <p>The position of the "eye" element displayed on the page is updated using mouse events.</p>
+  <a target="_blank" href="https://github.com/jssicakisner/Eye-Exercise">
+  <button type="button" class="btn btn-primary">SEE MORE</button>
+  </a>
+  </div>
+<div class="col-md-4" projects>
+    <img src="tracker.png" class="tracker-img">
+    <h4>BUS TRACKER PROJECT</h4>
+    <p>This is a "Real Time" location of a random public bus in Boston, Massachusetts.</p>
+    <a target="_blank" href="https://github.com/jssicakisner/Real-Time-Bus-Tracker">
+    <button type="button" class="btn btn-primary">SEE MORE</button>
+    </a>
+</div>
+</div>
+</div>
+</section>
+
+<!-----------------CONTACT SECTION--------------------->
+
+<section id="social-media">
+<div class="container text-center">
+<p>FIND ME ON SOCIAL MEDIA</p>
+<div class="social-icons">
+  <a target="_blank" href="https://www.facebook.com/jessica.kisner.104/"><img src="facebook.png"></a>
+  <a target="_blank" href="https://www.instagram.com/jessica.kisner/"><img src="instagram.png"></a>
+  <a target="_blank" href="https://www.linkedin.com/in/j%C3%A9ssica-kisner/"><img src="linkedIn.png"></a>
+  <a target="_blank" href="https://github.com/jssicakisner"><img src="github.png"></a>
+
+</div>
+</div>
+</section>
+
+<!----------------FOOTER SECTION-------------------------->
+
+<section id="footer">
+<div class="container text-center">
+<div class="row">
+<div class="col-md-12 footer-box">
+<img src="logo.png">
+  <p>Thank you for your visit!</p>
+</div>
+</div>
+  <hr>
+  <p class="copyright">2022, Copyright</p>
+</div>
+</section>
+
+<!----------------SMOOTH SCROLL--------------------------->
+
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+
+</html>
